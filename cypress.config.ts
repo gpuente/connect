@@ -1,6 +1,7 @@
 import { defineConfig } from 'cypress';
 
 export default defineConfig({
+    projectId: 'otdgvw',
     e2e: {
         supportFile: 'cypress/support/e2e.ts',
         setupNodeEvents(on, config) {
